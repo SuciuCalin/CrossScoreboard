@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Player Layout-->
+    <dimen name="Player_LinearLayoutHeight">0dp</dimen>
+    <integer name="Player_LinearLayoutWeight">1</integer>
+
+    <!--Player Layout -> 1st inner LAYOUT-->
+    <dimen name="Player_1stLinearLayoutHeight">76dp</dimen>
+    <dimen name="Player_1stLinearLayoutMargin">4dp</dimen>
+
+    <!--Player Layout 1st inner Layout -> Score & points TEXT VIEWS-->
+    <dimen name="Player_ScoreAndPointsWidth">0dp</dimen>
+    <integer name="Player_ScoreAndPointsWeight">1</integer>
+    <dimen name="Player_ScoreAndPointsTextSize">36sp</dimen>
+
+    <!--Player Layout 1st inner Layout -> Player name TEXT VIEW-->
+    <dimen name="Player_NameWidth">0dp</dimen>
+    <integer name="Player_NameWeight">2</integer>
+    <dimen name="Player_NameTextSize">56sp</dimen>
+
+    <!--Player Layout -> 2nd inner Layout-->
+    <dimen name="CardsWidth">0dp</dimen>
+    <dimen name="CardsHeigth">160dp</dimen>
+    <integer name="CardsWeight">1</integer>
+    <dimen name="CardsMargin">4dp</dimen>
+
+    <!--Player Layout -> 2nd inner Layout-->
+    <dimen name="Player_2ndLinearLayoutHeight">0dp</dimen>
+    <integer name="Player_2ndLinearLayoutWeight">2</integer>
+
+    <!--Player Layout -> 3rd inner Layout -> CALL BUTTONS-->
+    <dimen name="CallWidth">0dp</dimen>
+    <integer name="CallWeight">1</integer>
+    <dimen name="CallMargin">4dp</dimen>
+
+    <!--Player separation line-->
+    <dimen name = "SeparationLineHeight">1dp</dimen>
+    <dimen name = "SeparationLineMargin_TopAndBottom">4dp</dimen>
+    <dimen name = "SeparationLineMargin_LeftAndRight">16dp</dimen>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Player Layout 1st inner Layout -> Score & points TEXT VIEWS-->
+    <style name="Player_ScoreAndPoints">
+        <item name="android:layout_width">@dimen/Player_ScoreAndPointsWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/Player_ScoreAndPointsWeight</item>
+        <item name="android:background">@drawable/paper_score</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ScoreAndPointsBlueInk</item>
+        <item name="android:textSize">@dimen/Player_ScoreAndPointsTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Player Layout 1st inner Layout -> Player name TEXT VIEW-->
+    <style name="Player_Name">
+        <item name="android:layout_width">@dimen/Player_NameWidth</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@integer/Player_NameWeight</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/PlayerNameBlack</item>
+        <item name="android:textSize">@dimen/Player_NameTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

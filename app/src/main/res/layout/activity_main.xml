@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:fillViewport="true"
+    tools:context="com.example.android.crossscoreboard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Player 1 layout-->
+        <LinearLayout style="@style/Player_LinearLayout">
+
+            <LinearLayout style="@style/Player_1stLinearLayout">
+
+                <TextView
+                    android:id="@+id/playerA_score"
+                    style="@style/Player_ScoreAndPoints"
+                    android:text="@string/Score"/>
+
+                <TextView
+                    style="@style/Player_Name"
+                    android:text="@string/PlayerA" />
+
+                <TextView
+                    android:id="@+id/playerA_points"
+                    style="@style/Player_ScoreAndPoints"
+                    android:text="@string/Points"/>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Player_2ndLinearLayout">
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerA_2points"
+                    android:background="@drawable/two_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerA_3points"
+                    android:background="@drawable/three_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerA_4points"
+                    android:background="@drawable/four_points_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerA_10points"
+                    android:background="@drawable/ten_points_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerA_11points"
+                    android:background="@drawable/eleven_points_card" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Player_3rdLinearLayout">
+
+                <Button
+                    style="@style/Call"
+                    android:onClick="playerA_20points"
+                    android:text="@string/Call20" />
+
+                <Button
+                    style="@style/Call"
+                    android:onClick="playerA_40points"
+                    android:text="@string/Call40" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Separation line-->
+        <View style="@style/SeparationLine" />
+
+        <!--Player 2 layout-->
+        <LinearLayout style="@style/Player_LinearLayout">
+
+            <LinearLayout style="@style/Player_1stLinearLayout">
+
+                <TextView
+                    android:id="@+id/playerB_score"
+                    style="@style/Player_ScoreAndPoints"
+                    android:text="@string/Score"/>
+
+                <TextView
+                    style="@style/Player_Name"
+                    android:text="@string/PlayerB" />
+
+                <TextView
+                    android:id="@+id/playerB_points"
+                    style="@style/Player_ScoreAndPoints"
+                    android:text="@string/Points"/>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Player_2ndLinearLayout">
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerB_2points"
+                    android:background="@drawable/two_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerB_3points"
+                    android:background="@drawable/three_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerB_4points"
+                    android:background="@drawable/four_points_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerB_10points"
+                    android:background="@drawable/ten_points_card" />
+
+                <ImageButton
+                    style="@style/Cards"
+                    android:onClick="playerB_11points"
+                    android:background="@drawable/eleven_points_card" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/Player_3rdLinearLayout">
+
+                <Button
+                    style="@style/Call"
+                    android:onClick="playerB_20points"
+                    android:text="@string/Call20" />
+
+                <Button
+                    style="@style/Call"
+                    android:onClick="playerB_40points"
+                    android:text="@string/Call40" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ResetScore"
+            android:onClick="resetsPointsAndScore"/>
+
+    </LinearLayout>
+</ScrollView>

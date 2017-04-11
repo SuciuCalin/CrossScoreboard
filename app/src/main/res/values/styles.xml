@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Player Layout-->
+    <style name="Player_LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Player_LinearLayoutHeight</item>
+        <item name="android:layout_weight">@integer/Player_LinearLayoutWeight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--Player Layout -> 1st inner LAYOUT-->
+    <style name="Player_1stLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Player_1stLinearLayoutHeight</item>
+        <item name="android:layout_margin">@dimen/Player_1stLinearLayoutMargin</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--Player Layout 1st inner Layout -> Score & points TEXT VIEWS-->
+    <style name="Player_ScoreAndPoints">
+        <item name="android:layout_width">@dimen/Player_ScoreAndPointsWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/Player_ScoreAndPointsWeight</item>
+        <item name="android:background">@drawable/paper_score</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/ScoreAndPointsBlueInk</item>
+        <item name="android:textSize">@dimen/Player_ScoreAndPointsTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Player Layout 1st inner Layout -> Player name TEXT VIEW-->
+    <style name="Player_Name">
+        <item name="android:layout_width">@dimen/Player_NameWidth</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@integer/Player_NameWeight</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/PlayerNameBlack</item>
+        <item name="android:textSize">@dimen/Player_NameTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Player Layout -> 2nd inner Layout-->
+    <style name="Player_2ndLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Player_2ndLinearLayoutHeight</item>
+        <item name="android:layout_weight">@integer/Player_2ndLinearLayoutWeight</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--Player Layout -> 2nd inner Layout -> CARD IMAGE BUTTONS-->
+    <style name="Cards">
+        <item name="android:layout_width">@dimen/CardsWidth</item>
+        <item name="android:layout_height">@dimen/CardsHeigth</item>
+        <item name="android:layout_weight">@integer/CardsWeight</item>
+        <item name="android:layout_margin">@dimen/CardsMargin</item>
+    </style>
+
+    <!--Player Layout -> 3rd inner LAYOUT-->
+    <style name="Player_3rdLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!--Player Layout -> 3rd inner Layout -> CALL BUTTONS-->
+    <style name="Call">
+        <item name="android:layout_width">@dimen/CallWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/CallWeight</item>
+        <item name="android:layout_margin">@dimen/CallMargin</item>
+    </style>
+
+    <!--Player separation line-->
+    <style name="SeparationLine">
+        <item name = "android:layout_width">match_parent</item>
+        <item name = "android:layout_height">@dimen/SeparationLineHeight</item>
+        <item name = "android:layout_marginBottom">@dimen/SeparationLineMargin_TopAndBottom</item>
+        <item name = "android:layout_marginLeft">@dimen/SeparationLineMargin_LeftAndRight</item>
+        <item name = "android:layout_marginRight">@dimen/SeparationLineMargin_LeftAndRight</item>
+        <item name = "android:layout_marginTop">@dimen/SeparationLineMargin_TopAndBottom</item>
+        <item name = "android:background">@color/SeparationLineWhile</item>
+    </style>
+
+</resources>
