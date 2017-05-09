@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cross Scoreboard</string>
+
+    <!--Score & points-->
+    <string name="Score">Score</string>
+    <string name="Points">Points</string>
+
+    <!--Player name-->
+    <string name="PlayerA">Player 1</string>
+    <string name="PlayerB">Player 2</string>
+
+    <!--Calls-->
+    <string name="Call20">Call +20</string>
+    <string name="Call40">Call +40</string>
+
+    <!--New/Reset Score button-->
+    <string name="ResetScore">New</string>
+
+    <!--Toast +40call string-->
+    <string name="plus40Call">Hello Chuck Norris! Only you can have more than one +40 Calls</string>
+
+    <!--Toast +20call string-->
+    <string name="plus20Call">Hello Chuck Norris! Only you can have more than three +20 Calls</string>
+</resources>
