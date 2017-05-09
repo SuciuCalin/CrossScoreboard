@@ -15,4 +15,10 @@
 
     <!--New/Reset Score button-->
     <string name="ResetScore">New</string>
+
+    <!--Toast +40call string-->
+    <string name="plus40Call">Hello Chuck Norris! Only you can have more than one +40 Calls</string>
+
+    <!--Toast +20call string-->
+    <string name="plus20Call">Hello Chuck Norris! Only you can have more than three +20 Calls</string>
 </resources>
