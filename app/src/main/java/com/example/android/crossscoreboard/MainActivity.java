@@ -8,12 +8,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int pointsA = 0;    //Tracks the points for Player 1
-    int pointsB = 0;    //Tracks the points for Player 2
-    int scoreA = 0;     //Tracks the score for Player 1
-    int scoreB = 0;     //Tracks the score for Player 2
-    int call40 = 0;     //Tracks the +40 calls. Allowed 1 per game
-    int call20 = 0;     //Tracks the +20 calls. Cannot be more than 3 per game
+    private int pointsA = 0;    //Tracks the points for Player 1
+    private int pointsB = 0;    //Tracks the points for Player 2
+    private int scoreA = 0;     //Tracks the score for Player 1
+    private int scoreB = 0;     //Tracks the score for Player 2
+    private int call40 = 0;     //Tracks the +40 calls. Allowed 1 per game
+    private int call20 = 0;     //Tracks the +20 calls. Cannot be more than 3 per game
 
     TextView scoreViewA;
     TextView pointsViewA;
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         call40++;
         if (call40 > 1) {
             Toast.makeText(getApplicationContext()
-                    , "Hello Chuck Norris! Only you can have more than one +40 Calls"
+                    , getString(R.string.plus40Call)
                     , Toast.LENGTH_SHORT).show();
         }
     }
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         call20++;
         if (call20 > 3) {
             Toast.makeText(getApplicationContext()
-                    , "Hello Chuck Norris! Only you can have more than three +20 Calls"
+                    , getString(R.string.plus20Call)
                     , Toast.LENGTH_SHORT).show();
         }
     }
@@ -117,31 +117,31 @@ public class MainActivity extends AppCompatActivity {
     //ADDING PLAYER 1 POINTS
     //Increase the points for Player 1 by 2
     public void playerA_2points(View v) {
-        pointsA = pointsA + 2;
+        pointsA += 2;
         displayForPlayerA(pointsA);
     }
 
     //Increase the points for Player 1 by 3
     public void playerA_3points(View v) {
-        pointsA = pointsA + 3;
+        pointsA += 3;
         displayForPlayerA(pointsA);
     }
 
     //Increase the points for Player 1 by 4
     public void playerA_4points(View v) {
-        pointsA = pointsA + 4;
+        pointsA += 4;
         displayForPlayerA(pointsA);
     }
 
     //Increase the points for Player 1 by 10
     public void playerA_10points(View v) {
-        pointsA = pointsA + 10;
+        pointsA += 10;
         displayForPlayerA(pointsA);
     }
 
     //Increase the points for Player 1 by 11
     public void playerA_11points(View v) {
-        pointsA = pointsA + 11;
+        pointsA += 11;
         displayForPlayerA(pointsA);
     }
 
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
     public void playerA_20points(View v) {
         twentyCallCheck();
         if (call20 < 4) {
-            pointsA = pointsA + 20;
+            pointsA += 20;
             displayForPlayerA(pointsA);
         }
     }
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
     public void playerA_40points(View v) {
         fortyCallCheck();
         if (call40 < 2) {
-            pointsA = pointsA + 40;
+            pointsA += 40;
             displayForPlayerA(pointsA);
         }
     }
@@ -167,31 +167,31 @@ public class MainActivity extends AppCompatActivity {
     //ADDING PLAYER 2 POINTS
     //Increase the points for Player 2 by 2
     public void playerB_2points(View v) {
-        pointsB = pointsB + 2;
+        pointsB += 2;
         displayForPlayerB(pointsB);
     }
 
     //Increase the points for Player 2 by 3
     public void playerB_3points(View v) {
-        pointsB = pointsB + 3;
+        pointsB += 3;
         displayForPlayerB(pointsB);
     }
 
     //Increase the points for Player 2 by 4
     public void playerB_4points(View v) {
-        pointsB = pointsB + 4;
+        pointsB += 4;
         displayForPlayerB(pointsB);
     }
 
     //Increase the points for Player 2 by 10
     public void playerB_10points(View v) {
-        pointsB = pointsB + 10;
+        pointsB += 10;
         displayForPlayerB(pointsB);
     }
 
     //Increase the points for Player 2 by 11
     public void playerB_11points(View v) {
-        pointsB = pointsB + 11;
+        pointsB += 11;
         displayForPlayerB(pointsB);
     }
 
@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
     public void playerB_20points(View v) {
         twentyCallCheck();
         if (call20 < 4) {
-            pointsB = pointsB + 20;
+            pointsB += 20;
             displayForPlayerB(pointsB);
         }
     }
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
     public void playerB_40points(View v) {
         fortyCallCheck();
         if (call40 < 2) {
-            pointsB = pointsB + 40;
+            pointsB += 40;
             displayForPlayerB(pointsB);
         }
     }
@@ -222,6 +222,4 @@ public class MainActivity extends AppCompatActivity {
         displayForPlayerA(pointsA);
         displayForPlayerB(pointsB);
     }
-
-
 }
