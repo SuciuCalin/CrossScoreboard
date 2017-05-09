@@ -38,4 +38,5 @@ Screenshots:
 ![4](https://cloud.githubusercontent.com/assets/27139870/25824123/e1e69e9e-3446-11e7-8f0b-8cf0b0dc99f6.png)
 ![5](https://cloud.githubusercontent.com/assets/27139870/25824119/e1e16ac8-3446-11e7-96d5-cd245353c26f.png)
 ![6](https://cloud.githubusercontent.com/assets/27139870/25824121/e1e538c4-3446-11e7-8c66-b5cb2d3258d1.png)
+![7](https://cloud.githubusercontent.com/assets/27139870/25858624/de2eda8e-34e4-11e7-9cb9-754b53a2bf47.png)
 
