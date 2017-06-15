@@ -40,6 +40,7 @@ The goal is to create an <b>Score Keeper app</b> which gives a user the ability 
 <li><b>There are no unnecessary blank lines.One variable is declared per declaration line.
 <br>The code within a method is indented with respect to the method declaration line.</li></b>
 </ul>
+
 <br>
 <h2>Some Cross Game Info:</h2>
 
