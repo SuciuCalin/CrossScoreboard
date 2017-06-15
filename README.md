@@ -3,7 +3,7 @@
 
 This project is a chance for you to combine and practice everything you learned in this section of the Nanodegree program. You will be making an app that allows a user to keep track of points within a game.
 
-The goal is to create an <b>Score Keeper app</b> which gives a user the ability to keep track of the score of two different teams playing a game of your choice. To build this project, you can follow along with the practice set and customize the Court Counter app to track scores from a different sport.
+The goal is to create an <b>Score Keeper app</b> which gives a user the ability to keep track of the score of two different teams playing a game of your choice.
 
 <h3>Requirements</h3>
 
@@ -41,7 +41,7 @@ The goal is to create an <b>Score Keeper app</b> which gives a user the ability 
 <br>The code within a method is indented with respect to the method declaration line.</li></b>
 </ul>
 
-<br>
+<h2></h2>
 <h2>Some Cross Game Info:</h2>
 
 The cards
